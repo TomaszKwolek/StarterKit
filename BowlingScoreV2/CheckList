@@ -1,0 +1,27 @@
+	 1. throws 0 						-> score 0
+	 2. throws 5, 4 					-> score 9
+	 3. throws 5, 4, 7, 2				-> score 18
+	 4. throws 3, 7, 3, 2 with spare	-> score 18
+	 5. throws 9, 1, 2, 1, 3, 1 		-> score 19
+	 6. throws 10, 3, 6 with Strike 	-> score 28
+	 7. throws 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 		-> score 20
+	 8. throws 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0 		-> score 10
+	 9. throws 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10 					-> score 300
+	 24. throws 3, 1, 4, 2, 5, 2, 4, 0, 10, 3, 7, 2, 1, 10, 10, 10, 5,1 		-> score 127
+	 10. throws 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5 	-> score 150
+	 11. throws 10, 1, 9, 1, 9, 1, 9, 1, 9, 1, 9, 1, 9, 1, 9, 1, 9, 1, 9, 10 	-> score 128
+	 12. throws 1, 9, 1, 9, 1, 9, 1, 9, 1, 9, 1, 9, 1, 9, 1, 9, 1, 9, 1, 9, 1 	-> score 110
+	 13. throws 9, 1, 9, 1, 9, 1, 9, 1, 9, 1, 9, 1, 9, 1, 9, 1, 9, 1, 9, 1, 9  	-> score 190
+	 14. throws 10, 9, 1, 5, 5, 7, 2, 10, 10, 10, 9, 0, 8, 2, 9, 1, 10 			-> score 187
+	 15. throws 10, 9, 1, 5, 5, 0, 7, 2, 0, 9, 1, 10 -> score 74
+	 16. throws 5, 4 		-> score 9
+	 17. throws 3  			-> isFinished = false
+	 18. throws 3, 1, 4, 2, 5, 2, 4, 0, 10, 3, 7, 2, 1  					-> isFinished = false
+	 19. throws 3, 1, 4, 2, 5, 2, 4, 0, 10, 3, 7, 2, 1, 10, 10, 1  			-> isFinished = false
+	 20. throws 3, 1, 4, 2, 5, 2, 4, 0, 10, 3, 7, 2, 1, 10, 10, 1, 5  		-> isFinished = true
+	 21. throws 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 1  					-> isFinished = false
+	 22. throws 10, 10, 10, 10, 10, 10, 10, 10, 10, 9, 1, 6 				-> isFinished = true
+	 23. throws 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10  			-> isFinished = true
+	 25. throw -5 							-> exception
+	 26. throws above 10 					-> exception
+	 27. two throws in one round above 10 	-> exception

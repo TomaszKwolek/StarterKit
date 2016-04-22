@@ -1,0 +1,8 @@
+1.	getCardsForHand("wrongFilePathName.txt") 		-> should catch IOException for wrong file name
+
+2.  getCardsForHand("poker.txt")		-> should return list 8C, TS, KC, 9H, 4S for game number one for the first hand
+2.  getCardsForHand("poker.txt")		-> should return list 7D, 2S, 5D, 3S, AC for game number one for the second hand
+3.  getCardsForHand("poker.txt")		-> should return list JC, 6S, 5H, 2H, 2D for game number ten for the first hand
+3.  getCardsForHand("poker.txt")		-> should return list KD, 9D, 7C, AS, JS for game number ten for the second hand
+4.  getCardsForHand("poker.txt")		-> should return list AS, KD, 3D, JD, 8H for game number thousand for the first hand
+5.  getCardsForHand("poker.txt")		-> should return list 7C, 8C, 5C, QD, 6C for game number thousand for the second hand

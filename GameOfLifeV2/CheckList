@@ -1,0 +1,15 @@
+1. create game board x,y from the input table
+
+2. dead cell with 0 neighbors -> dead in next generation
+3. dead cell with 2 neighbors -> dead in next generation
+4. dead cell with 3 neighbors -> alive in next generation
+5. dead cell with 4 neighbors -> dead in next generation
+
+6. alive cell with 0 neighbors -> dead in next generation
+7. alive cell with 1 neighbors -> dead in next generation
+8. alive cell with 2 neighbors -> alive in next generation
+9. alive cell with 3 neighbors -> alive in next generation
+10. alive cell with 4 neighbors -> dead in next generation
+
+11. board 16x9 crocodile formation correct result after 75 generations 
+12. board 16x9 crocodile formation correct result after 76 generations 

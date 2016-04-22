@@ -1,0 +1,8 @@
+1. 0 gier rozegranych -> wynik 1 (z pliku "testCheckList2.txt")
+2. 1 gier rozegrana -> -> wynik 1 "testCheckList3.txt"
+3. 10 gier rozegranych -> wynik 10 "testCheckList.txt"
+4. 11 gier rozegranych -> wynik 10  "testCheckList4.txt"
+5. 56 gier rozegranych -> wynik 21 "testCheckList5.txt"
+6. 1000 gier rozegranych -> wynik 376 "poker.txt"
+
+7. should catch Exception for only one Hand 

@@ -1,0 +1,15 @@
+1. cards = AS, QD, 2C, 3H, 7D -> getScore(cards) should be 0
+2. cards = AS, QD, AC, 3H, 7D -> getScore(cards) should be 1
+3. cards = 2S, QD, 2C, JH, JD -> getScore(cards) should be 2
+4. cards = 7S, QD, 7C, 3H, 7D -> getScore(cards) should be 3
+5. cards = 9S, 5D, 8C, 6H, 7D -> getScore(cards) should be 4
+6. cards = AS, QS, 2S, 3S, 7S -> getScore(cards) should be 5
+7. cards = AS, 2D, AC, 2H, 2C -> getScore(cards) should be 6
+8. cards = 3S, QD, 3C, 3H, 3D -> getScore(cards) should be 7
+9. cards = JS, 7S, TS, 8S, 9S -> getScore(cards) should be 8
+10. cards = JH, TH, AH, QH, KH -> getScore(cards) should be 9
+
+11. Should return score -1 for wrong number of cards
+12. Should catch exception for wrong file name
+13. Should return score -1 for both hand for wrong rank in one hand
+13. Should return score -1 for both hand for wrong suit in one hand
